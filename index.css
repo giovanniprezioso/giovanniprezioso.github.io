@@ -6,6 +6,11 @@ body {
     background: url();
 }
 
+mark {
+    font-family: 'Raleway', sans-serif;
+    background-color: yellow;
+ }
+
 .box-centrato {
     display: inline-block;
     margin: 15% auto;
@@ -25,5 +30,5 @@ a {
 }
 
 a:hover {
-    text-decoration: underline; 
+    text-decoration: line-through; 
 }

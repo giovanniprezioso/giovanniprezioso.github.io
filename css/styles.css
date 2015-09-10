@@ -245,7 +245,7 @@ a .bottom p { width:190px; }
 .element.hybrid .images, .element.hybrid .service-item { position: absolute; top: 0; right: -0%; z-index: 22; -webkit-transition: right ease-in-out 0.33s; transition: right ease-in-out 0.33s; }
 .element.hybrid:hover .images, .element.hybrid:hover .service-item { right: -100%; -webkit-transition: right ease-in-out 0.33s; transition: right ease-in-out 0.33s; }
 .element > .elem-content { padding:30px 35px; background:#e9e9e9; width: 300px; }
-.ct-part { padding:25px 0px 0px 10px; background:#F2E400; border-top:1px solid #d8d8d8; height: auto; margin-top:9px; }
+.ct-part { padding:15px 0px 0px 10px; background:#F2E400; border-top:1px solid #d8d8d8; height: auto; margin-top:9px; }
 .ft-part { padding:29px 0px 31px 0px; /*background:#e9e9e9;*/ border-top:1px solid #d8d8d8; height: auto; margin-top:10px; }
 .ct-part > p.indented { padding-left:20px; }
 .ct-part sub { display: inline-block; font-size: 12px; padding-left: 10px; font-family: 'Titillium Web', sans-serif; 'Helvetica Neue', Arial, Helvetica, sans-serif; }

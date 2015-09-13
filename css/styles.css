@@ -97,7 +97,7 @@ body > #wrap { height: auto; min-height: 100%; }
 .content-wrapper { padding-bottom: 91px; }
 html { overflow: -moz-scrollbars-vertical; overflow-y: scroll; -webkit-font-smoothing: antialiased; height:100%; -webkit-text-size-adjust: 100%; }
 body { font-size: 16px; font-family: 'Titillium Web', sans-serif; sans-serif; sans-serif;, Georgia, "Times New Roman", Times, serif; color:#555; background:#1D1D1D; height:100% }
-strong { font-weight:600; }
+strong { font-weight:600; padding: 0px 8px; background: #F2E400; }
 a, a > * { -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0;       }
 p { line-height:1.5; padding:0 0px 30px 0px; }
@@ -215,7 +215,7 @@ a h3 span { text-decoration:none !important }
 
 /* =7. Column Grid
 --------------------------------------------------------------------------------------------------------*/
-.col3-3 { width:940px; height:auto; margin:10px; float:left; position:relative }
+.col3-3 { width:940px; height:auto; margin:-6px; float:left; position:relative }
 .col4-3 { width:1260px; height:auto; margin:10px; position:relative }
 .col1-3 { width:300px; height:280px; margin:10px; background:#FFFFFF; float:left; position:relative }
 .col2-3 { width:620px; height:580px; margin:10px; background:#e9e9e9; float:left; position:relative }
@@ -245,7 +245,7 @@ a .bottom p { width:190px; }
 .element.hybrid .images, .element.hybrid .service-item { position: absolute; top: 0; right: -0%; z-index: 22; -webkit-transition: right ease-in-out 0.33s; transition: right ease-in-out 0.33s; }
 .element.hybrid:hover .images, .element.hybrid:hover .service-item { right: -100%; -webkit-transition: right ease-in-out 0.33s; transition: right ease-in-out 0.33s; }
 .element > .elem-content { padding:30px 35px; background:#e9e9e9; width: 300px; }
-.ct-part { padding:15px 0px 0px 10px; background:#F2E400; border-top:1px solid #d8d8d8; height: auto; margin-top:9px; }
+.ct-part { padding:15px 0px 0px 10px; background:#FFFFFF; /*border-top:1px solid #d8d8d8;*/ height: auto; margin-top:9px; }
 .ft-part { padding:29px 0px 31px 0px; /*background:#e9e9e9;*/ border-top:1px solid #d8d8d8; height: auto; margin-top:10px; }
 .ct-part > p.indented { padding-left:20px; }
 .ct-part sub { display: inline-block; font-size: 12px; padding-left: 10px; font-family: 'Titillium Web', sans-serif; 'Helvetica Neue', Arial, Helvetica, sans-serif; }

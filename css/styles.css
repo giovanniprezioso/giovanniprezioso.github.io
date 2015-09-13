@@ -241,7 +241,7 @@ a .bottom p { width:190px; }
 --------------------------------------------------------------------------------------------------------*/
 .overflow, .element { overflow:hidden; }
 .break { display:block; position:relative; height:20px; width:100%; }
-.whole-tile { position:absolute; left:0; top:0; width:100%; height:100%; display:block; z-index:55; padding:15px 35px; }
+.whole-tile { position:absolute; left:0; top:0; width:100%; height:100%; display:block; z-index:55; padding: 15px 35px; }
 .element.hybrid .images, .element.hybrid .service-item { position: absolute; top: 0; right: -0%; z-index: 22; -webkit-transition: right ease-in-out 0.33s; transition: right ease-in-out 0.33s; }
 .element.hybrid:hover .images, .element.hybrid:hover .service-item { right: -100%; -webkit-transition: right ease-in-out 0.33s; transition: right ease-in-out 0.33s; }
 .element > .elem-content { padding:30px 35px; background:#e9e9e9; width: 300px; }

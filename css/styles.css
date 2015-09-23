@@ -119,7 +119,7 @@ a span.arrow { color:#555; }
 a:hover span.arrow { padding-right:0; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; opacity:1 }
 blockquote { padding:0px 0px 2px 25px; color:#777; font-size:16px; font-style:italic; float:left; width:180px; }
 .hentry blockquote:before { content:"“"; float:left; display:block; margin-left:-64px; font-family:Georgia, "Times New Roman", Times, serif; font-size:96px; margin-top:-6px; font-weight:400 }
-blockquote p { font-family:'Titillium', 'Helvetica Neue', Arial, Helvetica, sans-serif; }
+
 blockquote p.small { font-style:normal; color:#555; letter-spacing:0; font-weight:600; text-transform:none }
 em { font-style:italic; font-family:'Titillium', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#777; }
 code { font:13px "Courier New", Courier, monospace; font-style:normal; line-height:1.5; display:block; padding-top:4px; }
